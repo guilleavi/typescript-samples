@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "references": [
+    {
+      "name": "typescript-samples",
+      "path": ".."
+    }
+  ],
+  "compilerOptions": {
+    "types": [
+      "jest"
+    ],
+    "rootDir": "..",
+    "noEmit": true // no generate js files on build
+  },
+  "include": [
+    "."
+  ] // everything in test folder
+}
