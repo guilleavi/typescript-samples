@@ -4,6 +4,8 @@
 
     `$ npx gitignore node `
 
+    Add `temp` folder
+
 2.  Generate package.json
 
     `$ yarn init --yes`
@@ -199,3 +201,7 @@
     `$ mkdir etc`
     `$ yarn build`
     `$ yarn api-extractor run --local`
+
+    If you remove the --local and the API changes, it will return an error. This is to prevent API changes on prod.
+
+    `$ yarn api-documenter markdown -i temp -o docs`

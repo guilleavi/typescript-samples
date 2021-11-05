@@ -10,9 +10,6 @@ export const test: () => void;
 // @beta
 export const testBeta: () => void;
 
-// @public
-export const testPrivate: () => void;
-
 // (No @packageDocumentation comment for this package)
 
 ```

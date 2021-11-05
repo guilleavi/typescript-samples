@@ -172,7 +172,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "typescript-samples!test:var",
-          "docComment": "/**\n * Test api-extractor\n */\n",
+          "docComment": "/**\n * Test api-extractor\n *\n * @public\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -206,27 +206,6 @@
           ],
           "releaseTag": "Beta",
           "name": "testBeta",
-          "variableTypeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
-          }
-        },
-        {
-          "kind": "Variable",
-          "canonicalReference": "typescript-samples!testPrivate:var",
-          "docComment": "/**\n * Test api-extractor private  @private\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "testPrivate: "
-            },
-            {
-              "kind": "Content",
-              "text": "() => void"
-            }
-          ],
-          "releaseTag": "Public",
-          "name": "testPrivate",
           "variableTypeTokenRange": {
             "startIndex": 1,
             "endIndex": 2

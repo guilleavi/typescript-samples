@@ -8,7 +8,7 @@ export const testBeta = () => {
 
 /**
  * Test api-extractor private
- * @private
+ * @internal
  */
 export const testPrivate = () => {
   console.log("Hello world private!")
@@ -16,6 +16,7 @@ export const testPrivate = () => {
 
 /**
  * Test api-extractor
+ * @public
  */
 export const test = () => {
   console.log("Hello world!")
