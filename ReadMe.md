@@ -80,6 +80,8 @@
         },
         "extends": [
             "eslint:recommended",
+            "prettier",
+            "prettier/@typescript-eslint", // very important so eslint and prettier don't fight each other
             "plugin:@typescript-eslint/recommended",
             "plugin:@typescript-eslint/recommended-requiring-type-checking"
         ],
