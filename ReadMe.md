@@ -206,4 +206,6 @@
 
     If you remove the --local and the API changes, it will return an error. This is to prevent API changes on prod.
 
+12. API Documenter
+
     `$ yarn api-documenter markdown -i temp -o docs`
